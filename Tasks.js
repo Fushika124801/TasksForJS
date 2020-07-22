@@ -16,7 +16,7 @@ function task3() {
     let year = prompt("Введити год") ;
     let month = prompt("Введити месяц");
     let day = prompt("Введити день");
-    let yearIsVisokos = (( year % 4 == 0 ) || ( year % 400 == 0 )) ? false : true;
+    let yearIsVisokos = (year % 4 == 0 ) ? false : true;
     day++;
 
     if(yearIsVisokos){
